@@ -12,8 +12,6 @@
    (Ricardo teria 2 pilhas e Vicente teria 3 pilhas) e ambos escolhiam uma pilha do
  amigo para receber.
 '''
-
-
 def mdc(num1, num2):
     a, b = max(num1, num2), min(num1, num2)
     while b != 0:

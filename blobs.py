@@ -15,4 +15,3 @@ for _ in range(n):
         co /= 2
         dias += 1
     print(f"{dias} dias")
-

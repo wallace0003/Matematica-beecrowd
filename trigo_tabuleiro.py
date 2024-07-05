@@ -20,7 +20,7 @@ for _ in range(n):
     graos = 0
     for c in range(tabuleiro):
         graos += 2 ** c
-    print((graos//12) // 1000)
+    print((graos//12) // 1000, "kg")
 
 
 

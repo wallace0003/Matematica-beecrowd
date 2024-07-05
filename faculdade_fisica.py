@@ -6,8 +6,8 @@ Uma partícula tem velocidade inicial e aceleração constante. Se a sua velocid
 import sys
 
 def main():
-    input = sys.stdin.read
-    data = input().split()
+    interacao = sys.stdin.read()
+    data = interacao.split()
     
     i = 0
     results = []

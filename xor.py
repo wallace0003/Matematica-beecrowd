@@ -18,10 +18,15 @@ programa eficiente que pegaria 2 valores decimais de 32 bits sem sinal como entr
 um número de 32 bits sem sinal como saída, ou seja, somando do mesmo modo como o circuito faz.
 '''
 
-while True:
-    num1, num2 = map(int, input().split())
+import sys
+
+
+for line in sys.stdin:
+    num1, num2 = map(int, line.split())
+    
     bi1 = bin(num1)[2:]
     bi2 = bin(num2)[2:]
-    print(bi1, " " , bi2)
-    xor = int(bi1) ^ int(bi2)
+    
+    xor = num1 ^ num2
+    
     print(xor)
